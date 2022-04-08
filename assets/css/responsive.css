@@ -1,0 +1,280 @@
+@media (min-width: 992px) {
+	.menu {
+		display: block !important;
+	}
+	.mobile-toggle {
+		display: none;
+	}
+ 
+}
+@media (max-width: 991px) {
+	.logo {
+		float: left;
+		padding-top: 12px;
+		padding-bottom: 12px;
+	}
+	.menu {
+		display: none;
+	}
+	.mobile-toggle {
+		float: right;
+		display: block;
+		margin-top: 9px;
+	}
+	.mobile-menu-open {
+		color: #333;
+		font-size: 20px;
+		border: 2px solid #333;
+		line-height: 1;
+		display: inline-block;
+		padding: 6px 8px;
+	}
+	.mobile-menu-open:hover {
+		color: #333;
+	}
+	.error-page-content img {
+		width: 60%;
+	}
+	.banner-img {
+		margin-top: 30px;
+	}
+	.about-img {
+		text-align: center;
+	}
+	.about-img img {
+		width: 70%;
+	}
+ 
+}
+@media (max-width: 767px) {
+	.error-page-content img {
+		width: 78%;
+	}
+	.top-info {
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.top-right-bar {
+		text-align: center;
+	}
+	.lhost-services, .why-choose-us, .lhost-pricing-area, .lhost-latest-blog, .counter-area{
+		padding-top: 70px;
+		padding-bottom: 40px;
+	}
+	.about-area, .lhost-testimonial, .lhost-faq-section, .lhost-login, .lhost-blog-area{
+		padding: 70px 0px;
+	}
+	.footer-social {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.copyright p {
+		text-align: center;
+	}
+	.footer-top {
+		padding-top: 40px;
+		padding-bottom: 10px;
+	}
+	.breadcrumb-area {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	.breadcrumb-text h2 {
+		font-size: 32px;
+		margin-bottom: 5px;
+	}
+	.privacy-policy-content h2 {
+		font-size: 24px;
+	}
+	.privacy-policy-content h3 {
+		font-size: 20px;
+	}
+	.blog-details-full h2 {
+		font-size: 20px;
+	}
+ 
+}
+@media (max-width: 576px) {
+	.banner-content-full h3 {
+		font-size: 35px;
+	}
+	.banner-content-full h4 {
+		font-size: 22px;
+		margin-bottom: 2px;
+	}
+	.domain-search-form h2 {
+		font-size: 25px;
+	}
+	.lhost-services, .why-choose-us, .lhost-pricing-area, .lhost-latest-blog, .counter-area{
+		padding-top: 50px;
+		padding-bottom: 20px;
+	}
+	.about-area, .lhost-testimonial, .lhost-faq-section, .lhost-login, .lhost-blog-area{
+		padding: 50px 0px;
+	}
+	.section-title h2 {
+		font-size: 24px;
+	}
+	.about-info h4::after {
+		left: 0;
+	}
+	.about-info h4 {
+		padding-left: 58px;
+	}
+	.about-info h3 {
+		font-size: 24px;
+		margin-bottom: 5px;
+	}
+	.services-details h2 {
+		font-size: 25px;
+	}
+	.services-details h3 {
+		font-size: 20px;
+	}
+	.hosting-img {
+		margin-top: 40px;
+		text-align: center;
+	}
+	.hosting-img img {
+		width: 85%;
+	}
+	.privacy-policy-content h2 {
+		font-size: 22px;
+	}
+	.privacy-policy-content h3 {
+		font-size: 18px;
+	}
+	.blog-content h2 {
+		font-size: 20px;
+	}
+	.blog-content {
+		padding: 20px 0px;
+	}
+	.blog-details-full h3 {
+		font-size: 16px;
+	}
+}
+@media (max-width: 450px) {
+	.error-page-content img {
+		width: 85%;
+	}
+	.button-1 {
+		padding: 16px 30px;
+	}
+	.button-2 {
+		padding: 16px 30px;
+	}
+	.domain-search-form h2 {
+		font-size: 20px;
+		margin-bottom: 4px;
+	}
+	.domain-search-form p {
+		font-size: 16px;
+	}
+	.domain-search-form form input {
+		padding: 0px 12px;
+		height: 50px;
+	}
+	.domain-search-form form button {
+		height: 50px;
+		padding: 0px 20px;
+	}
+	.services-details h2 {
+		font-size: 22px;
+	}
+	.services-details h3 {
+		font-size: 18px;
+	}
+	.accordion-item .accordion-header {
+		font-size: 16px;
+	}
+	.privacy-policy-content h2 {
+		font-size: 20px;
+	}
+	.privacy-policy-content h3 {
+		font-size: 18px;
+	}
+	.blog-content h2 {
+		font-size: 18px;
+	}
+	.blog-details-full {
+		padding: 30px 10px;
+	}
+	.comment-single .comment-reply {
+		margin-top: 20px;
+		border-left: 3px solid #333;
+	}
+	.comment-form {
+		margin-top: 0px;
+		padding: 16px 0px;
+	}
+ 
+}
+@media (max-width: 360px) {
+	.mobile-off-canvas-menu {
+		max-width: 290px !important;
+		width: 100%;
+	}
+	.banner-btn a:first-child {
+		margin-right: 0px;
+		margin-bottom: 10px;
+	}
+	.banner-content-full h3 {
+		font-size: 28px;
+	}
+	.banner-content-full p {
+		font-size: 16px;
+	}
+	.domain-search-form {
+		padding: 30px 6px;
+	}
+	.services-single {
+		padding: 35px 12px;
+	}
+	.about-info h3 {
+		font-size: 22px;
+	}
+	.about-info ul li {
+		line-height: 24px;
+	}
+	.choose-single-item .icon {
+		width: 80px;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+	.choose-single-item .content {
+		padding-left: 0px;
+		width: 100%;
+		text-align: center;
+	}
+	.pricing-item ul li {
+		padding: 0px 0px;
+	}
+	.services-details h2 {
+		font-size: 20px;
+	}
+	.faq-form {
+		padding: 20px 10px;
+	}
+	.lhost-login-form {
+		padding: 20px 10px;
+	}
+	.privacy-policy-content p {
+		line-height: 25px;
+		font-size: 14px;
+	}
+	.blog-content p {
+		font-size: 14px;
+	}
+	.single-widgets {
+		padding: 20px 12px;
+	}
+	.comment-thumb {
+		width: 80px;
+		margin: 0 auto;
+		margin-bottom: 10px;
+	}
+	.comment-body {
+		padding-left: 0px;
+	}
+}

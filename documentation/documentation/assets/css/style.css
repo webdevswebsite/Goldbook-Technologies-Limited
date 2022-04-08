@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,800&display=swap');
+html{
+	scroll-behavior: smooth;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	color: #191919;
+	font-weight: normal;
+	font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p{
+	margin:0;
+	padding: 0;
+}
+h1{
+	color: #333;
+	font-size: 30px;
+}
+ul{
+	margin:0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	transition: .4s;
+	-webkit-transition: all .4s ease-in-out;
+	color: #333;
+}
+a:hover{
+	text-decoration: none;
+	color: #BF470D
+}
+a.title:hover{
+	color: #82B60B;
+}
+button:focus{
+	outline: none;
+}
+input:focus{
+	outline: none;
+}
+
+textarea:focus{
+	outline: none;
+}
+textarea{
+	outline: none;
+}
+p{
+	color: #191919;
+}
+.header {
+	width: 100%;
+	overflow: hidden;
+	background: black;
+	padding: 15px 0px;
+	position: fixed;
+	z-index: 999;
+}
+.menu{
+	width: 100%;
+	overflow: hidden;
+}
+.menu ul{
+	list-style: none;
+}
+.menu ul li{
+	display: inline;
+}
+.menu ul li a {
+	color: #fff;
+	padding: 10px 8px;
+	font-size: 16px;
+}
+.menu ul li a:hover{
+	color: red;
+}
+.well-full h2{
+	font-style: 40px;
+}
+.well-full p{
+	font-size: 22px;
+	width: 80%;
+	margin: 0 auto;
+}
+.well-full a{
+	color: red;
+	text-transform: uppercase;
+}
+pre {
+	background: #ddd;
+	padding: 10px 20px;
+	font-size: 18px;
+}
+.mail-img{
+	width: 100%;
+}
